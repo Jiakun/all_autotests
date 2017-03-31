@@ -1,0 +1,280 @@
+CHANGES
+=======
+
+* revised observer
+* Revert "revised observer"
+* Revert "ha"
+* Revert "Merge branch 'master' of git.polex.io:Pantheon/sedna"
+* ha
+* revised observer
+* remove wrong egg-info
+* fix cfg name
+* indented block
+* Delete 部署说明
+* Delete 项目说明
+* Delete 测试说明
+* add setup.cfg
+* update setup.cfg
+* update cleaner
+* update cleaner
+* rename
+* minor changes for s observer
+* add sedna.cmd
+* add sedna.cmd
+* scenario observer changed
+* add sedna-master.service
+* add 部署文档
+* add setup
+* revised observer for ha
+* observer for ha
+* revised log
+* revised log
+* revised systemd rest master
+* revised log for rest master
+* revised log for rest master
+* revised ha var name
+* revised ha rest master
+* nodeserver-hatest-v1
+* pep8
+* fix-test_master-and-rest_test_master
+* fix-test_master-and-rest_test_master
+* fix bug
+* threading-for-checker
+* Update services.py
+* Update services.py
+* Update master.py
+* create_file
+* fix service_command
+* Update master.py
+* fix kill service
+* rename observer api
+* Update observer.py
+* Update master.py
+* Update master.py
+* Update master.py
+* Update sedna.conf
+* Update sedna.conf
+* Update sedna.conf
+* loadbalancer wait
+* fix run_scenario bug
+* fix some bugs
+* fix tests/rest/master.py
+* Update test_config.py
+* renew observer
+* Update master.py
+* Update test_scenario.py
+* fix observer
+* Update test_observer.py
+* Update sampler.py
+* Update master.py
+* start,stop
+* restart
+* cleanup
+* Update observer.py
+* Update observer.py
+* Update master.py
+* Update master.py
+* update Pacemakerchecker
+* Update master.py
+* add observer and fix
+* Update neutron.py
+* Update sampler.py
+* Update services.py
+* kill service
+* lb
+* update nova.py test_scenario.py openstack.py
+* update keypair
+* update
+* update test_scenario.py
+* Update common.py
+* Update common.py
+* update test_scenario.py
+* Update cinder.py
+* update
+* add scenario
+*  sfgraeg
+* update
+* add floatingip
+* nova.py
+* Delete qianlu_openstack.py
+* Delete test_ql_scenario.py
+* nova.py
+* nova.py
+* add router
+* add router
+* add floatingip manager
+* test_scenario.py
+* renew test_scenario.py
+* add port_create_scenario
+* qianlu_openstack.py test_ql_scenario.py
+* test_scenario
+* Update scenario.py
+* add server_create_scenario_test
+* add server_create_scenario_test
+* rm 1226venv
+* rm 1226venv
+* Delete activate
+* Delete pip-selfcheck.json
+* Update scenario.py
+* add scenario openstack.py
+* test_sampler.py
+* add nova
+* 1. add error info and name into steps 2. add utility to generate uuid string
+* rename test suite file name to make unit2 be able to discover it
+* change openstack from uat to qa environment
+* add scenario test base classes
+* Update config_test_no_sampler_section.conf
+* Update config_test_no_sampler_option.conf
+* Update test_config.py
+* add glance image value object and manager
+* add logic to check if the resource is iterable before find their properties
+* add sync status check to make sure the resource reaches the expected status before being used
+* config.py
+* config.py
+* Add new directory
+* change port
+* sedna/ reconstruction
+* sedna reconstruction
+* Update sedna_openrc
+* add test_config
+* renew tests
+* rm PATH&LOG
+* add port value object and manager
+* add subnet value object and manager
+* add network value object and manager
+* run unit test and coverage against all cases
+* add coverage check in unit test
+* Update sampler.py
+* Update test_sampler.py
+* Update sampler.py
+* Update sampler.py
+* Update test_sampler.py
+* Update sampler.py
+* Update sampler.py
+* add snapshot manager
+* Update sampler.py
+* add snapshot value object
+* refactor keystone manager
+* add volume manager add volume manager test suite
+* Update config.py
+* Update .gitignore
+* Update .gitignore
+* repair tests
+* Update config.py
+* setup relationship between project and domain
+* fix comment errors
+* run-tox.sh clean up
+* change default pip index url to https
+* add parameter to set tox environment to run against
+* refactor keystone manager test cases
+* Update config.py
+* Update config.py
+* Update config.py
+* Update config.py
+* refactor keystone managers
+* customized pip index url
+* fixed code style issues
+* add value object OpenStack project
+* add /tmp
+* add value object OpenStack project
+* fix problems posted by pep8
+* change unit2 command
+* Update sedna.conf
+* Update test_master.py
+* Update test_master_sampler_communitcation.py
+* Update test_sampler.py
+* Update test_sampler.py
+* Update test_master_sampler_communitcation.py
+* Update test_master.py
+* Update test_master.py
+* Update test_master_sampler_communitcation.py
+* Update test_sampler.py
+* Update test_sampler.py
+* Update test_sampler.py
+* Update test_sampler.py
+* renew test_config
+* renew test_common.oy
+* Update requirements.txt
+* fix pep8 error
+* add the openstack user manipulation logic
+* add rest.py and test_rest.py
+* add the openstack user value object
+* remove the logic to setup host mapping
+* remove the logic to setup host mapping
+* fix comparing logic
+* add logic to setup host mapping
+* add parameter to pass pip server into run-tox script
+* remove unittest2 dependency from tox
+* add requirements.txt into tox
+* Update master.py
+* setup tox
+* add restful api
+* Delete test.py
+* Update sedna.conf
+* Update master.py
+* add pacemaker checker
+* fix bug when get response*
+* fix bug when get response
+* rm POC file
+* renew log&&output
+* remove gerrit integration
+* renew output&log
+* remove gerrit intergration
+* Delete Sedna_Master.py
+* Delete Sedna_Agent.py
+* Delete sedna.log
+* Add new directory
+* fixed bugs
+* renew test_common.py
+* renew sedna
+* update common.py
+* update config.py
+* renew common.py
+* update config.py
+* amend test_master_sampler_communitcation.py
+* fixed **entries bugs
+* renew sedna
+* add pyro4 demo
+* add common.py
+* User cleanup logic and unit test case
+* git add config.py
+* git add tests/test_master.py sedna/master.py
+* config.py
+* git add sedna/common.py sedna/sampler.py tests/test_config.py tests/test_sampler.py
+* git add common.py
+* git commit common.py test_common.py
+* git add logging.conf sedna.conf
+* git add tests/test_sampler.py tests/test_master.py sedna/master.py sedna/sampler.py sedna/common.py
+*  git add master.py sampler.py (amend)
+*  git add master.py sampler.py (amend)
+* git add sedna.conf sedna/config.py sedna/sampler.py sedna/master.py sedna/common.py
+*  git add config.py
+* git add master.py common.py(amend)
+* 1. add tempest.py to generate tempest configuration file
+* update config.py
+* git add sedna.conf sedna/master.py sedna/common.py
+* git add master.py q
+* update config.py
+* update config.py by qianlu
+* 1. add glance dao 2. add billing verify for glance snapshot
+* update config.py
+* 1. add neutron dao, and router ORM object 2. add logic to check router billing information
+* 1. logic to verify nova instance billing 2. refactoring billing verifying code structure
+* rename test cases to make unit test framework be able to discover them correctly
+* nova dao and base dao
+* add mac cache file into git ingore
+* 1. gringotts database manipulation logic 2. logic to verify volume billing data
+* git add sedna.conf
+* 1. starting develop tools to verify billing data 2. database access logic
+* remove swp
+* git add config.py
+* 1. add stubs to check the communication details 2. add Service initialization support for dictionary entry 3. add Service equality check logic 4. add test case for Service object
+* 1. add basic interface definition of master, sampler and value objects, and the communication unit test case 2. add pyCharm configuration file into .gitignore 3. add unittest2 into requirements
+* git add Sedna_Master.py
+* git add Sedna_Agent.py
+* change folder name from module to sedna
+* script to cleanup keystone resources, including project, user, region
+* net resource cleanup script, supporting router, net, subnet, port
+* init project conetentn
+* init gerrit
+* Initial empty repository

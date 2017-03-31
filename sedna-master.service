@@ -1,0 +1,13 @@
+[Unit]
+Description=Sedna master Server
+
+[Service]
+Type=simple
+NotifyAccess=all
+TimeoutStartSec=0
+Restart=always
+User=root
+ExecStart=/usr/bin/sedna-master
+
+[Install]
+WantedBy=multi-user.target

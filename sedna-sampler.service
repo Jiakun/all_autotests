@@ -1,0 +1,13 @@
+[Unit]
+Description=Sedna sampler Server
+
+[Service]
+Type=simple
+NotifyAccess=all
+TimeoutStartSec=0
+Restart=always
+User=root
+ExecStart=/usr/bin/sedna-sampler
+
+[Install]
+WantedBy=multi-user.target

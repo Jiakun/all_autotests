@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: sedna
+Version: 0.0.1.dev350
+Summary: Sedna contains core methods of test case on an OpenStack environment.
+Home-page: 10.0.63.41:9999/flora.html
+Author: PoleX Test Developers
+Author-email: liqian@polex.com.cn
+License: UNKNOWN
+Description: Sedna is a repository of QA testing tools.
+        
+        
+Platform: UNKNOWN
+Classifier: Environment :: OpenStack
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4

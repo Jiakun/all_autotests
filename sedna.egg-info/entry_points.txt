@@ -1,0 +1,4 @@
+[console_scripts]
+sedna-master = sedna.rest.master:run
+sedna-sampler = sedna.console.sampler:main
+

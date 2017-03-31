@@ -1,0 +1,7 @@
+[run]
+include = sedna/*
+branch = False
+
+[report]
+include = sedna/*
+show_missing = True

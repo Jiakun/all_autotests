@@ -1,0 +1,2 @@
+ export SEDNA_CONF="/etc/sedna/sedna.conf"
+ export SEDNA_LOG_CONF="/etc/sedna/logging.conf"
