@@ -952,6 +952,14 @@ class VpnIpsecSiteConnectionManagerTest(TestCase, ResourceManagerTest):
             vpnservice_id=self.vpnservices[0].id)
 
     def tearDown(self):
+        def delete_router(index):
+            self.router_manager.remove_gateway_router(
+                router=self.routers[index])
+            self.router_manager.remove_interface_router(
+                router=self.routers[index],
+                subnet=self.subnets[index])
+            self.router_manager.delete(self.routers[index])
+
         self.tear_down()
         self.ikepolicy_manager.delete(self.ikepolicy)
         self.ipsecpolicy_manager.delete(self.ipsecpolicy)
@@ -959,9 +967,12 @@ class VpnIpsecSiteConnectionManagerTest(TestCase, ResourceManagerTest):
             self.vpnservice_manager.delete(vpnservice)
         for endpoint in self.endpoint_locals:
             self.endpoint_group_manager.delete(endpoint)
+
+        delete_router(0)
+        delete_router(1)
+
         for subnet in self.subnets:
             self.subnet_manager.delete(subnet)
-        for router in self.routers:
-            self.router_manager.delete(router)
+
         for network in self.networks:
             self.network_manager.delete(network)
