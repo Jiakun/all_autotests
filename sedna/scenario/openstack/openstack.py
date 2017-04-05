@@ -33,7 +33,7 @@ from sedna.scenario.openstack.step import ServerCreateStep, \
     PortforwardingCreateStep, ServerStopStep, ServerStartStep, \
     AppendFirewallRuleStep, VpnIpsecSiteConnectionCreateStep, \
     MultiRouterWithGatewayCreateAtOnceStep, MultiVpnServiceCreateAtOnceStep, \
-    MultiVpnEndpointsCreateAtOnceStep
+    MultiVpnEndpointsCreateAtOnceStep, FirewallCreateStep
 
 
 config = SednaConfigParser(SEDNA_CONF)
@@ -515,7 +515,7 @@ class FirewallCreateScenario(ResourceCreateScenario):
             FirewallSettingStep(
                 name=rand_name(
                     "FirewallCreateScenario_firewallsetting", "sedna")),
-            FirewallRuleCreateStep(name=self.context.name)]
+            FirewallCreateStep(name=self.context.name)]
 
 
 class FirewallNoRouterCreateScenario(ResourceCreateScenario):
@@ -537,7 +537,7 @@ class FirewallNoRouterCreateScenario(ResourceCreateScenario):
             FirewallSettingStep(
                 name=rand_name(
                     "FirewallNoRouterScenario_firewallsetting", "sedna")),
-            FirewallRuleCreateStep(name=self.context.name)]
+            FirewallCreateStep(name=self.context.name)]
 
 
 class PortforwardingCreateScenario(ResourceCreateScenario):

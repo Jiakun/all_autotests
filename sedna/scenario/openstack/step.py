@@ -34,6 +34,7 @@ from sedna.openstack.common import Server, Flavor, Image, Subnet,\
 
 from random import randint
 
+
 class PortCreateStep(Step):
     """The class to contain context variables across port test steps"""
 

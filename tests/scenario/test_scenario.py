@@ -859,7 +859,7 @@ class StepsTest(TestCase):
             MultipleSubnetCreateStep(
                 name=rand_name(
                     "PeerVpnConnectionCreateTest_subnet_0_", "sedna"), index=0,
-                cidr="192.167.167.10/24"),
+                cidr="192.166.167.10/24"),
             MultipleNetworkCreateStep(
                 name=rand_name(
                     "PeerVpnConnectionCreateTest_network_1_", "sedna"),
